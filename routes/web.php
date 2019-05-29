@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/owners', 'OwnersController@index');
+
+Route::get('/owners/{owner}', 'OwnersController@show');
+
+Route::post('/owners', 'OwnersController@store');
