@@ -1,8 +1,93 @@
-// Fonts
+ /*Fonts
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-// Variables
+ Variables
+ @import 'variables';
+
+ Bootstrap
+@import '~bootstrap/scss/bootstrap';*/
+
 @import 'variables';
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+
+@import 'themes/light';
+
+@import 'themes/dark';
+
+
+@import 'components/button';
+
+@import 'components/card';
+
+@import 'components/dropdown';
+
+body,
+
+button {
+	
+	@apply text-default;
+
+}
+
+.section {
+	
+	@apply px-8;
+
+}
+
+@tailwind base;
+
+
+
+
+
+@tailwind components;
+
+
+
+
+@tailwind utilities;
+
+/*.button {
+	
+	@apply .bg-button .text-white .rounded-lg text-sm .py-2 .px-5;
+
+	box-shadow: 0 2px 7px 0 #b0eaff;
+
+}*/
+
+/*.card {
+	
+	@apply .bg-card .p-5 .rounded-lg .shadow;
+
+	color: var(--text-default-color);
+
+}*/
+
+/*.theme-light {
+	
+	--page-background-color: #edf2f7;
+
+	--card-background-color: white;
+
+	--button-background-color: #90cdf4;
+
+	--header-background-color: white;
+
+	--text-default-color: #222;
+
+}*/
+
+/*.theme-dark {
+	
+	--page-background-color: #17181E;
+
+	--card-background-color: #1F2027;
+
+	--button-background-color: #59B6F9;
+
+	--header-background-color: #1F2027;
+
+	--text-default-color: #fff;
+
+}*/

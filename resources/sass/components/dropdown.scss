@@ -1,0 +1,20 @@
+.dropdown-toggle {
+
+	> button:focus {
+
+		outline: 0;
+
+	}
+
+}
+
+.dropdown-menu-link {
+
+	@apply .block .text-default .leading-loose .text-xs .px-6;
+
+	&:hover {
+
+		background: rgba(0, 0, 0, 0.1);
+
+	}
+}
